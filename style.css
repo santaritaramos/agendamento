@@ -1,0 +1,88 @@
+.logo {
+	margin: 0 auto;
+	width: 500px;
+	text-align: center;
+}
+
+.title{
+	color: black;
+	text-align: center;
+	font-family: "Roboto";
+	font-weight: bold;
+	font-size: 30px;
+}
+			
+.data{
+	color: black;
+	text-align: center;
+	font-family: "Roboto";
+	font-weight: bold;
+	font-size: 26px;
+}
+			
+.texto{
+	color: black;
+	text-align: center;
+	font-family: "Roboto";
+	font-weight: normal;
+	font-size: 26px;
+}
+		
+.horario{
+	margin: 0 auto;
+	text-align: center;
+}
+			
+			
+a:link, a:visited {
+	color: black;
+	background-color: #E0BCD2;
+	font-family: "Roboto";
+	font-size: 28px;
+	font-weight: normal;
+	text-align: center;
+	padding: 20px;
+	text-decoration: none;
+	width: 80px;
+	display: inline-block;
+}
+			
+a:hover, a:active {
+	background-color: #FFFFFF;
+}
+
+@media only screen and (max-width:500px) {
+				
+/* Mobile */
+		
+	.logo {
+		width: 95%;
+					
+	}
+				
+	.title{
+		color: black;
+		text-align: center;
+		font-family: Arial, Helvetica, sans-serif;
+		font-weight: bold;
+		font-size: 20px;	
+	}
+				
+	.data{
+		color: black;
+		text-align: center;
+		font-family: "Roboto";
+		font-weight: bold;
+		font-size: 18px;	
+	}
+			
+	.texto{
+		color: black;
+		text-align: center;
+		font-family: "Roboto";
+		font-weight: normal;
+		font-size: 16px;
+	}
+				
+				
+}
